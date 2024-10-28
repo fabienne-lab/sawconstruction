@@ -1,16 +1,88 @@
 import React from 'react';
 import './Main.css';
+import { Box, Button, Typography, useTheme } from "@mui/material";
+import Header from "/workspaces/sawconstruction/src/components/header"
 
 function Main() {
   return (
     <main className="main-section">
     {/* Banner section */}
-        
+    
         <section className="banner-section">
-        <img
-          src="banner.jpeg" 
-          className="banner-image"
-          />
+        <Box>
+          <Box
+            display="flex"
+            flexDirection="row"
+            alignment="center"
+            boxShadow=" 3px 1px 8px rgba(0, 0, 0.2, 0.2)"
+            padding="0 0 0 5px"
+            margin="0 0 20px 0"
+            height="100px"
+            width="469px"
+            borderRadius= "20px 20px 20px 20px"
+            >
+              <Header subtitle="SAWCORP"/>
+              <Box
+              color="white"
+              backgroundColor="#007bff"
+              padding="10px"
+              margin="0 0 0 5px"
+              borderRadius= "0 20px 20px 50px"
+            >
+              <Header title="Cons-Track" />
+              </Box>
+          </Box>
+          <Box
+            display="flex"
+             flexDirection="row"
+          >
+            <Box className="presentation-section"
+            margin="10px"
+            >
+              <h2 className="presentation">REVOLUTIONING YOUR MONITORING</h2>
+              <div className="presentation-bold">
+                <p>New way to track and monitor your data specialy design for ROADS Construction </p>
+                <span>- RoadWorks Inc.</span>
+              </div>
+              <div className="presentation-bold">
+                <p>"A must-have for every construction company. It saved us hours of paperwork!"</p>
+                <span>- BuildRight Solutions</span>
+              </div>
+              <div className="presentation-button">
+                <button className="presentation-button1">Order Now</button>
+                <button className="presentation-button2">Explore More</button>
+                
+              </div>
+            </Box>
+              <Box
+              display="flex"
+              flexDirection="column"
+              
+            >
+            <img
+            src="banner.jpeg" 
+            className="banner-image"
+            />
+            <img
+            src="banner.jpeg" 
+            className="banner-image"
+            />
+              </Box>
+              <Box
+                className="auth-pannels"
+                marginLeft="300px"
+                borderRadius="20px"
+
+              >
+                <h3 className="auth-title">Connection à l'espace de Travail</h3>
+                <div className="auth-buttons">
+                  <button className="login-btn">Login</button>
+                  <button className="signup-btn">Sign Up</button>
+                  <a href="/supp1App/supp1App">test</a>
+                </div>
+                </Box>  
+          </Box>
+        </Box>
          </section>
 
       {/* Login/Sign-Up Section */}
@@ -28,7 +100,7 @@ function Main() {
       <section className="testimonials-section">
         <h2>What Our Users Say</h2>
         <div className="testimonial">
-          <p>"This app transformed our project management! Tracking progress has never been easier!"</p>
+          <p>"This kkkkookokokokkkkkkkkkkkkkkkapp transformed our project management! Tracking progress has never been easier!"</p>
           <span>- RoadWorks Inc.</span>
         </div>
         <div className="testimonial">

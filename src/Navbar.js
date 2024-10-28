@@ -6,8 +6,10 @@ const Navbar = () => {
 
 <nav className="navbar">
   <div className="navbar-left">
-    <a href="logoDesign.jpeg" className="logo">
-      SawConstruction
+    <a 
+    href="logoDesign.jpeg" 
+    className="logo">
+      SawCorp
     </a>
   </div>
   <div className="navbar-center">
