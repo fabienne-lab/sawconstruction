@@ -1,0 +1,109 @@
+/* Main section styles */
+.main-section {
+  padding: 40px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.banner-image{
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+margin-bottom: 20px;
+}
+
+ /* Testimonials Section */
+.presentation{
+  color: #007bff;
+}
+.presentation-section{
+  /*box-shadow: 0 1px 10px #007bff;*/
+  border-radius: 10px;
+  padding: 10px;
+}
+.presentation-bold{
+  font-weight: bold;
+}
+.presentation-button{
+  margin-top: 75px;
+}
+.presentation-button1{
+  margin-right: 40px;
+  background-color: #007bff;
+  font-weight: bold;
+  color: #f9f9f9;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  border: solid #007bff;
+}
+.presentation-button2{
+  margin-left: 40px;
+  border: solid #007bff;
+  color: #007bff;
+  background-color: #f9f9f9;
+  padding: 10px 30px 10px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+/* Login/Sign-Up Section */
+.auth-pannels {
+  justify-content: center;
+  padding: 30px;
+  background-color: #007bff;
+  height: 500px;
+}
+.auth-section {
+  margin-bottom: 40px;
+}
+.auth-title {
+  color: white;
+}
+
+.auth-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.signup-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+  margin-bottom: 20px;
+}
+
+.testimonial p {
+  font-style: italic;
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 10px;
+  color: #555;
+  font-weight: bold;
+}
