@@ -85,7 +85,7 @@ function Main() {
           <Link to="/signup">
             <button className="signup-btn">Sign Up</button>
           </Link>
-          <a href="/supp1App/supp1App">test</a>
+          <Link to="/supp1App/supp1App">Test</Link>
         </div>
       </section>
 

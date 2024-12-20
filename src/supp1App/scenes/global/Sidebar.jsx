@@ -108,7 +108,7 @@ const Sidebar = () => {
             {/* Dashboard Section */}
             <Item
               title="Tableau de Bord"
-              to="/"
+              to="/supp1App/supp1App"
               icon={<HomeOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -119,21 +119,21 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Suivi Travaux"
-              to="/Planning"
+              to="/supp1App/supp1App/Planning"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Mobilisation"
-              to="/team"
+              to="/supp1App/supp1App/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Plan Tresorerie"
-              to="/team"
+              to="/supp1App/supp1App/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -144,14 +144,14 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Validations"
-              to="/dailyReportsWorks"
+              to="/supp1App/supp1App/dailyReportsWorks"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Rapport des travaux"
-              to="/dailyReportsWorks"
+              to="/supp1App/supp1App/dailyReportsWorks"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -162,35 +162,35 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Situation Générale"
-              to="/contacts"
+              to="/supp1App/supp1App/contacts"
               icon={<ContactsOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Stocks"
-              to="/team"
+              to="/supp1App/supp1App/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Matériel"
-              to="/team"
+              to="/supp1App/supp1App/team"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Personnel"
-              to="/Factures"
+              to="/supp1App/supp1App/Factures"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Facture/BC"
-              to="/invoices"
+              to="/supp1App/supp1App/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}

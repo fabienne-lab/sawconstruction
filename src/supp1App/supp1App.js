@@ -1,5 +1,6 @@
+import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { useState } from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Topbar from "./scenes/global/Topbar";
 import Sidebar from "./scenes/global/Sidebar";
 import Dashboard from "./scenes/dashboard";
@@ -31,13 +32,30 @@ function Supp1App() {
         <div className="app">
           <Topbar>
           </Topbar>
-          <Sidebar isSidebar={isSidebar} />
-          <main className="content">
+          
+          <Box 
+            display="flex"
+            flexDirection="row"
+            >
+              <Box 
+                style={{
+                  height: '100vh',           // Fixe une hauteur à l'élément
+                  overflowY: 'auto',         // Permet le défilement vertical lorsque nécessaire
+                  scrollbarWidth: 'none',    // Cache la barre de défilement sur certains navigateurs (comme Firefox)
+                }}
+              >
+                <Sidebar isSidebar={isSidebar} />
+              </Box>
+              
+              <Box 
+                flexGrow={1}
+              >
+                <main className="content">
             
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/dailyReportsWorks" element={<DailyReportsWorks />} />
-              <Route path="/team" element={<Team />} />
+              <Route path="/supp1App/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/planner" element={<Planner />} />
               <Route path="/planning" element={<Planning />} />
@@ -52,6 +70,11 @@ function Supp1App() {
               <Route path="/geography" element={<Geography />} />
             </Routes>
           </main>
+              </Box>
+          
+          
+          </Box>
+          
         </div>
       </ThemeProvider>
     </ColorModeContext.Provider>
