@@ -16,6 +16,7 @@ import Form from "./scenes/form";
 import Line from "./scenes/line";
 import Pie from "./scenes/pie";
 import FAQ from "./scenes/faq";
+import DailyReportsEditing from "./scenes/dailyReportsEditing"
 import Geography from "./scenes/geography";
 import { CssBaseline, ThemeProvider } from "@mui/material";
 import { ColorModeContext, useMode } from "./theme";
@@ -55,6 +56,7 @@ function Supp1App() {
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/dailyReportsWorks" element={<DailyReportsWorks />} />
+              <Route path="/dailyReportsEditing" element={<DailyReportsEditing />} />
               <Route path="/supp1App/team" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />
               <Route path="/planner" element={<Planner />} />

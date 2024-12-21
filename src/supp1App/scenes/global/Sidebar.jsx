@@ -143,15 +143,15 @@ const Sidebar = () => {
               Rapport Journalier
             </Typography>
             <Item
-              title="Validations"
+              title="Rapport des travaux"
               to="/supp1App/supp1App/dailyReportsWorks"
-              icon={<ContactsOutlinedIcon />}
+              icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
-              title="Rapport des travaux"
-              to="/supp1App/supp1App/dailyReportsWorks"
+              title="Redaction de Rapport"
+              to="/supp1App/supp1App/dailyReportsEditing"
               icon={<PeopleOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -197,7 +197,7 @@ const Sidebar = () => {
             />
             <Item
               title="Sous-Traitants"
-              to="/invoices"
+              to="/supp1App/supp1App/invoices"
               icon={<ReceiptOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -208,28 +208,28 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Topographie"
-              to="/form"
+              to="/supp1App/supp1App/form"
               icon={<PersonOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Géotechnique"
-              to="/calendar"
+              to="/supp1App/supp1App/calendar"
               icon={<CalendarTodayOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Autorisations"
-              to="/faq"
+              to="/supp1App/supp1App/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Reportings"
-              to="/faq"
+              to="/supp1App/supp1App/faq"
               icon={<HelpOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -240,7 +240,7 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Plans et Documents"
-              to="/bar"
+              to="/supp1App/supp1App/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
@@ -251,28 +251,28 @@ const Sidebar = () => {
             </Typography>
             <Item
               title="Bar Chart"
-              to="/bar"
+              to="/supp1App/supp1App/bar"
               icon={<BarChartOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Pie Chart"
-              to="/pie"
+              to="/supp1App/supp1App/pie"
               icon={<PieChartOutlineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Line Chart"
-              to="/line"
+              to="/supp1App/supp1App/line"
               icon={<TimelineOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}
             />
             <Item
               title="Geography Chart"
-              to="/geography"
+              to="/supp1App/supp1App/geography"
               icon={<MapOutlinedIcon />}
               selected={selected}
               setSelected={setSelected}

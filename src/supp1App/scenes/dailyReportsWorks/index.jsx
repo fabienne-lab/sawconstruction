@@ -46,6 +46,11 @@ const DailyReportsWorks = () => {
       headerName: "PK_Fin",
       flex: 1,
     },
+    {
+      field: "PK_Fn",
+      headerName: "Statut de Validation",
+      flex: 1,
+    },
   ];
 
   const handleRowClick = (params) => {
@@ -55,6 +60,9 @@ const DailyReportsWorks = () => {
   return (
     <Box m="20px">
       <Header title="RAPPORT DES TRAVAUX" subtitle="Managing the Team Members" />
+      <Box>
+        
+      </Box>
       <Box
         m="40px 0 0 0"
         height="75vh"
@@ -84,7 +92,9 @@ const DailyReportsWorks = () => {
           },
         }}
       >
+        
          {/* Tableau avec gestion du clic sur les lignes */}
+         
          <Box flex={selectedRow ? 0.7 : 1} transition="flex 0.3s ease" style={{height: "500px"}}>
           <DataGrid
             checkboxSelection
